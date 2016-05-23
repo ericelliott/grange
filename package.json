@@ -1,6 +1,6 @@
 {
   "name": "grange",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Create generators that generate ranged values one at a time.",
   "main": "source/grange.js",
   "scripts": {
