@@ -30,3 +30,13 @@ test('transform', assert => {
   assert.same(actual, expected, msg);
   assert.end();
 });
+
+test('decrement', assert => {
+  const msg = 'should decrement when start > end';
+
+  const [...actual] = grange(3, 1);
+  const expected = [3, 2, 1];
+
+  assert.same(actual, expected, msg);
+  assert.end();
+});
