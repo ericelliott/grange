@@ -65,3 +65,13 @@ test('loop', assert => {
   assert.same(actual, expected, msg);
   assert.end();
 });
+
+test('omit start', assert => {
+  const msg = 'should assume zero if start value is omitted';
+
+  const [...actual] = grange(6, n => n * 2, {step: 2});
+  const expected = [0, 4, 8, 12];
+
+  assert.same(actual, expected, msg);
+  assert.end();
+});
