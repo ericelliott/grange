@@ -1,9 +1,7 @@
 function* grange (start, end, transform, options) {
   if (typeof end !== 'number') {
-    options = transform;
-    transform = end;
-    end = start;
-    start = 0;
+    [ options, transform, end, start ] =
+      [ transform, end, start, 0];
   }
 
   const shouldTransform = typeof transform === 'function';
