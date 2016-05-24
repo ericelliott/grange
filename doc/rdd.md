@@ -1,3 +1,9 @@
+# RDD
+
+This document is for planning new features.
+
+## Finished Features
+
 ```js
 const [...foo] = grange(3, 6); // [3, 4, 5, 6]
 const [...bar] = grange(2, 6, {step: 2}); // [2, 4, 6]
