@@ -8,5 +8,5 @@ const loopGen = grange(1, 3, {loop: true});
 const loop = range(0, 7).map(() => loopGen.next().value); // [1, 2, 3, 1, 2, 3, 1, 2]
 
 // If you omit the start, everything should still work
-const [...omittedStart] = grange(3, n => n * 2, {step: 2}); // [0, 4, 8, 12]
+const [...omittedStart] = grange(6, n => n * 2, {step: 2}); // [0, 4, 8, 12]
 ```
