@@ -2,7 +2,7 @@ const test = require('tape');
 const grange = require('../grange');
 
 const range = (start, end) =>
-  Array.from({ length: end - start + 1}, (x, i) => i++);
+  Array.from({ length: end - start + 1}, (x, i) => i + start );
 
 test('simple number range', assert => {
   const msg = 'should produce a simple range';
