@@ -21,10 +21,10 @@
   "author": "Eric Elliott",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "1.0.7",
+    "cross-env": "1.0.8",
     "eslint": "2.10.2",
     "tape": "4.5.1",
-    "updtr": "0.1.14",
+    "updtr": "0.1.15",
     "watch": "0.18.0"
   }
 }
