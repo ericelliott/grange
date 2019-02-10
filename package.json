@@ -21,7 +21,7 @@
   "author": "Eric Elliott",
   "license": "MIT",
   "devDependencies": {
-    "cross-env": "1.0.8",
+    "cross-env": "5.2.0",
     "eslint": "2.13.1",
     "tape": "4.10.0",
     "updtr": "0.2.3",
