@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "5.2.1",
-    "eslint": "5.16.0",
+    "eslint": "9.2.0",
     "tape": "4.13.3",
     "updtr": "3.1.0",
     "watch": "1.0.2"
